@@ -302,12 +302,14 @@ span.title1 {
 }
 
 div.container {
-  max-width: 1000px;
+  /* PC版のコンテンツ幅 大きくするまでの仮px */
+  max-width: 600px;
   display: block;
   margin: 0 auto;
   position: relative;
   top: 60px;
   z-index: 0;
+  width: 90%;
 }
 
 div.contents,
