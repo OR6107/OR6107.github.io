@@ -554,22 +554,34 @@ div.twitter {
   margin: 0 30px 0 30px;
 }
 
-div.others {
+/* div.others {
   float: left;
   margin: 0 30px 0 30px;
   width: 600px;
-}
+} */
 
-div.indexpage {
+/* indexpage -> main ※indexpageのTwitter削除により */
+/* div.indexpage {
   margin: 0 30px 0 30px;
   width: 970px;
+  width: 100%;
   margin: 0 auto;
-}
+} */
 
 div.main {
   margin: 0 30px 0 30px;
-  width: 600px;
+  margin-left: 50px;
+  margin-right: 50px;
+  /* width: 600px; */
+  max-width: 100%;
+  display: block;
   margin: 0 auto;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  width: 95%;
 }
 
 /*****************sakuhin******************/
