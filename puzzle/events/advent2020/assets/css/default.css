@@ -21,7 +21,8 @@
 * {
   font-family: "Lucida Grande", "Hiragino Sans", "ヒラギノ角ゴシック",
     "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Verdana,
-    /* '游ゴシック体', '游ゴシック', 'Yu Gothic', YuGothic,*/ "モリサワ新ゴ M",
+    /* '游ゴシック体', '游ゴシック', 'Yu Gothic', YuGothic,*/
+    "モリサワ新ゴ M",
     "SourceHanSansJP-Regular", Meiryo, "メイリオ", sans-serif;
   text-align: justify;
   text-justify: inter-ideograph;
@@ -212,13 +213,13 @@ a.off-button:visited {
   pointer-events: none;
 }
 
-div.button{
+div.button {
   text-align: center;
   vertical-align: middle;
   margin: 20px auto;
 }
 
-div.level{
+div.level {
   text-align: center;
   vertical-align: middle;
   position: relative;
@@ -371,7 +372,8 @@ div.contents2 p {
 div.contents p.comment {
   font-family: "Lucida Grande", "Hiragino Kaku Gothic ProN",
     "ヒラギノ角ゴ ProN W3", Verdana,
-    /* '游ゴシック体', '游ゴシック', 'Yu Gothic', YuGothic,*/ "モリサワ新ゴ M",
+    /* '游ゴシック体', '游ゴシック', 'Yu Gothic', YuGothic,*/
+    "モリサワ新ゴ M",
     "SourceHanSansJP-Regular", Meiryo, "メイリオ", sans-serif;
   font-size: small;
 }
@@ -379,7 +381,8 @@ div.contents p.comment {
 p.book {
   font-family: "Lucida Grande", "Hiragino Kaku Gothic ProN",
     "ヒラギノ角ゴ ProN W3", Verdana,
-    /* '游ゴシック体', '游ゴシック', 'Yu Gothic', YuGothic,*/ "モリサワ新ゴ M",
+    /* '游ゴシック体', '游ゴシック', 'Yu Gothic', YuGothic,*/
+    "モリサワ新ゴ M",
     "SourceHanSansJP-Regular", Meiryo, "メイリオ", sans-serif;
   font-size: normal;
   text-indent: 0em;
@@ -694,12 +697,13 @@ details[open] .details-content {
     transform: translateY(-10px);
     /* 上から表示 */
   }
-  
+
   100% {
     opacity: 1;
     transform: none;
   }
 }
+
 /*------------calendar------------*/
 table.calendar {
   border-collapse: collapse;
@@ -743,7 +747,7 @@ table.calendar td {
   /* vertical-align: top; */
 }
 
-span.day  {
+span.day {
   display: inline-block;
   font-size: 24px;
   padding: 3px;
